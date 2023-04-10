@@ -12,7 +12,7 @@ Este serviço fornece uma interface simples e fácil de usar para fazer requisi�
 
 Este serviço fornece uma interface para lidar com exceções em suas aplicações Flutter. Ele permite capturar e manipular exceções de forma centralizada e personalizada, facilitando a depuração e o controle de erros em sua aplicação.
 
-### Calendário Service
+### Calendário Utils
 
 Este serviço fornece uma interface para lidar com datas em suas aplicações Flutter.
 
