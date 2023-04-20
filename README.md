@@ -8,6 +8,10 @@ Este repositório contém serviços comuns criados para aplicações Flutter. Es
 
 Este serviço fornece uma interface simples e fácil de usar para fazer requisições HTTP em suas aplicações Flutter. Ele suporta métodos HTTP comuns, como GET, POST, PUT e DELETE, além de permitir a configuração de cabeçalhos e parâmetros de consulta.
 
+### DIO Service
+
+Este serviço fornece uma interface simples e fácil de usar para fazer requisições HTTP através do pacote DIO em suas aplicações Flutter. Ele suporta métodos HTTP comuns, como GET, POST, PUT e DELETE, além de permitir a configuração de cabeçalhos e parâmetros de consulta.
+
 ### Exception Service
 
 Este serviço fornece uma interface para lidar com exceções em suas aplicações Flutter. Ele permite capturar e manipular exceções de forma centralizada e personalizada, facilitando a depuração e o controle de erros em sua aplicação.
