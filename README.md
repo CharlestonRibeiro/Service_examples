@@ -25,6 +25,6 @@ Este serviço fornece uma interface para lidar com armazenamento seguro em suas 
 Este serviço fornece uma classe genérica para lidar com respostas HTTP em suas aplicações Flutter. Ele permite analisar e transformar respostas JSON em objetos Dart, facilitando o processamento de dados em sua aplicação.
 
 ### Size Extensions
-A função abaixo é uma extensão do BuildContext que permite obter informações de tamanho da tela e porcentagens:
+A função abaixo é uma extensão do BuildContext que permite obter informações de tamanho da tela e porcentagens.
 
 
