@@ -66,4 +66,32 @@ class HttpService {
       throw CustomException(errorMessage: e.toString());
     }
   }
+
+  Future delete(String url, {Map<String, String>? headerSelected}) async {
+    try {
+      String urlCompleta = _baseUrl + url;
+      final response = await http.delete(Uri.parse(urlCompleta),
+          headers: headerSelected ?? headers);
+      VerifyResponse.verifyResponse(response);
+      return response;
+    } on CustomException catch (e) {
+      throw CustomException(errorMessage: e.errorMessage);
+    } catch (e) {
+      throw CustomException(errorMessage: e.toString());
+    }
+  }
+
+  Future head(String url, {Map<String, String>? headerSelected}) async {
+    try {
+      String urlCompleta = _baseUrl + url;
+      final response = await http.head(Uri.parse(urlCompleta),
+          headers: headerSelected ?? headers);
+      VerifyResponse.verifyResponse(response);
+      return response;
+    } on CustomException catch (e) {
+      throw CustomException(errorMessage: e.errorMessage);
+    } catch (e) {
+      throw CustomException(errorMessage: e.toString());
+    }
+  }
 }
